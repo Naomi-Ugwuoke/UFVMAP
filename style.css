@@ -1,0 +1,38 @@
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+#map{
+    height: 80vh;
+    width: 80vh;
+    margin: auto;
+    border: 10px solid black
+    
+}
+
+h1{
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    font: 2rem;
+    padding: 0, 3rem;
+
+}
+
+/* click popup text*/
+.gm-style-iw-d{
+    color: black;
+}
+
