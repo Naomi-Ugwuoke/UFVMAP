@@ -12,22 +12,137 @@
 </head>
 
 <body>
-    <h1>Lets explore the UFV Map</h1>
- 
-    <div id="map"></div>
+    <!-- header -->
+    <div class="header">
+        <a href="#" class="logo">
+            <img src="images/ufv_logo.png" alt="" style="padding-left: 10%;">
+            <br>
+            <br>
+        </a>
+        <div class="header-right">
+            <a>UFV ABBOTSFORD</a>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <br>
+        <br><br>
+        <div id="top" >
+            <div class="row">
+                <center><h2>Lets explore the UFV Map!</h2></center>
+                <p>This map was designed to be used within the UFV Campus, and although it works outside, you will only able to explore its full capabilities while focusing on UFV.</p>
+                
+            </div>
+            <br>
+            <div class="row">
+                <center><h2>Map Guide</h2></center>
+                <p>To use this map, select a start and end location. <br>
+                    <br>
+                    On the map; 
+                    <ul>
+                        <li>A = start point</li>
+                        <li>B = end point</li>
+                    </ul>
+                    <p>Are you on campus and dont know where you are?
+                        Click on "WHERE AM I?"
+                    </p>
+                </p>
+              
+            </div>
+        
+        </div>
+        <br>
+        <br>
+        
+        
+
+        <!-- display map -->
+        <div id="container" >
+            <div id="map"></div>
+            <div id="sidebar"></div>
+        </div>
+
+        <!-- Dropdown menu -->
+        <div style="display: none">
+            <div id="floating-panel">
+                <strong>Start:</strong>
+                <select id="start">
+                    <option value="Building A, Abbotsford, BC V2S 7N6">Building A</option>
+                    <option value="33844 King Rd building b room 223, Abbotsford, BC V2S 7M7">Building B</option>
+                    <option value="C Building, Abbotsford, BC V2S 8H8">Building C</option>
+                    <option value="33844 King Rd building b room 223, Abbotsford, BC V2S 7M7">Building D</option>
+                    <option value="Building E, Abbotsford, BC V2S 7N6">Building E</option>
+                    <option value="Building F, Abbotsford, BC V2S 7N6">Building F</option>
+                    <option value="Building G, Abbotsford, BC V2S 7N6">Building G</option>
+                    <option value="Building H, Abbotsford, BC V2S 7N6">Building H</option>
+                    <option value="UFV Building K, King Road, Abbotsford, BC">Building K</option>
+                    <option value="49.02758717899658, -122.28516256740615">Building S</option>
+                    <option value="49.02786794449749, -122.28421862888659">Building T</option>
+                    <option value="49.03122005657254, -122.2871307589436">Abbotsford Center</option>
+                </select>
+                <br />
+                <strong>End:</strong>
+                <select id="end">
+                    <option value="Building A, Abbotsford, BC V2S 7N6">Building A</option>
+                    <option value="33844 King Rd building b room 223, Abbotsford, BC V2S 7M7">Building B</option>
+                    <option value="C Building, Abbotsford, BC V2S 8H8">Building C</option>
+                    <option value="33844 King Rd building b room 223, Abbotsford, BC V2S 7M7">Building D</option>
+                    <option value="Building E, Abbotsford, BC V2S 7N6">Building E</option>
+                    <option value="Building F, Abbotsford, BC V2S 7N6">Building F</option>
+                    <option value="Building G, Abbotsford, BC V2S 7N6">Building G</option>
+                    <option value="Building H, Abbotsford, BC V2S 7N6">Building H</option>
+                    <option value="UFV Building K, King Road, Abbotsford, BC">Building K</option>
+                    <option value="49.02758717899658, -122.28516256740615">Building S</option>
+                    <option value="49.02786794449749, -122.28421862888659">Building T</option>
+                    <option value="49.03122005657254, -122.2871307589436">Abbotsford Center</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- To display the map -->
+    <!-- <div id="map" ></div> -->
+    <!-- style="float:left;width:70%;height:100%" -->
+    <!-- <div id="directionsPanel" style="float:right;width:30%;height:100%"></div> -->
+    
      
 
 
     <script src="script.js"></script>
     
+    
     <script async
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbSY5XF9IslRl2kdf6JDeRSjtse__Q2WU&callback=initMap">
+    defer
 </script>
 
-<footer>
+<footer style="padding: 10px;">
     Icons provided by: 
     <a target="_blank" href="https://icons8.com/icon/111063/b">B</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 </footer>
+
 </body>
 
 </html>
+
+<!-- 
+<ul>
+    <li>Alumni Association</li>
+    <li>Art Gallery</li>
+    <li>Cafeteria</li>
+    <li>Facilies and Project Management</li>
+    <li>Financial Aid</li>
+    <li>Future Students Office</li>
+    <li>ITS Help Desk</li>
+    <li>Lecture Theatre</li>
+    <li>Office of the Registar</li>
+    <li>Security, Risk, and Safety</li>
+    <li>Shipping and Recieving</li>
+    <li>Student Services</li>
+    <li>UFV International</li>
+</ul>
+<p>Building Plan:
+<a href="https://www.ufv.ca/media/assets/facilities/floor-plans/aba2_Main-Floor.pdf"> 1st floor</a>
+<a href="https://www.ufv.ca/media/assets/facilities/floor-plans/aba3_201709.pdf">2nd Floor</a>
+<a href="https://www.ufv.ca/media/assets/facilities/floor-plans/aba4_201609.pdf">3rd floor</a></p> -->
