@@ -1,7 +1,9 @@
+The API code used in this project has been disabled to prevent unauthorized charges.
+
 Project Members:
-1. Shruti
-2. Jannine
-3. Naomi 
+1. Shruti Verma
+2. Jannine Gemmel
+3. Naomi Ugwuoke
 
 Hello, this is just a base document that you can write whatever information about this project.
 
