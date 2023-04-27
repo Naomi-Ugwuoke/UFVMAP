@@ -1,11 +1,11 @@
-The API code used in this project has been disabled to prevent unauthorized charges.
+<b>The API code used in this project has been disabled to prevent unauthorized charges. </b>
 
 Project Members:
 1. Shruti Verma
 2. Jannine Gemmel
 3. Naomi Ugwuoke
 
-Hello, this is just a base document that you can write whatever information about this project.
+Homepage: index.html
 
 Colors:
 Dark grey: rgba(156,161,174,255)
